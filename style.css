@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("/assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
+    position: relative;
+    /* width: 100%; */
+}
+
+.main .box {
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    opacity: 0.74;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    /* padding: 1rem 2rem; */
+    display: flex;
+    margin: auto;
+    max-width: 70vw;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    width: 100%;
+}
+
+nav img {
+    height: 5vh;
+    padding-top: 0.5rem;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+nav button:nth-child(1) {
+    background-color: rgba(10, 9, 9, 0.6);
+}
+
+.hero {
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 84px);
+    padding: 1rem 1rem;
+    flex-direction: column;
+}
+
+.hero span:nth-child(1) {
+    /* font-family: "Martel Sans", serif; */
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.hero span:nth-child(2) {
+    text-align: center;
+    /* font-weight: 700; */
+    /* font-size: 2rem; */
+    margin-top: 1rem;
+}
+
+.hero span:nth-child(3) {
+    text-align: center;
+    /* font-weight: 700; */
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.hero-buttons {
+    margin-top: 0.8rem;
+}
+
+.hero input {
+    background-color: rgba(10, 9, 9, 0.6);
+    border: 1px solid rgba(44, 43, 43, 0.6);
+    ;
+    padding: 0.5rem 0.7rem;
+    font-size: 0.8rem;
+    margin-right: 0.1rem;
+    width: 17rem;
+    cursor: pointer;
+}
+
+.separator {
+    height: 0.4rem;
+    background-color: rgb(24, 24, 24);
+}
+
+.btn {
+    /* border: 1px solid gray; */
+    border-radius: 0.2rem;
+    padding: 0.1rem 0.8rem;
+    color: white;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+}
+
+.btn-red-sm {
+    background-color: red;
+}
+
+/* .first-box {
+    height: 70vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+} */
+
+.first-box-img {
+    position: relative;
+}
+
+.first-box-img img {
+    width: 30vw;
+}
+
+.first-box-img video {
+    width: 22vw;
+    position: absolute;
+    top: 71px;
+    right: 64px;
+    z-index: -1;
+}
+
+.first-box-text {
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.first-box-text :nth-child(1) {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+/* .second-box {
+    height: 70vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+} */
+
+.section-box {
+    height: 70vh;
+    /* background-color: aquamarine; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.second-box-img img{
+    width: 30vw;
+}
+
+.second-box-text {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.second-box-text :nth-child(1) {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+/* For the Third Box Styles are similar to first box */
+
+.faq{
+    margin: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.faq-head{
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.box-faq {
+    cursor: pointer;
+    background-color: #2d2d2d;
+    width: 60vw;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+    /* height: 5vh; */
+    /* border: 2px solid black; */
+}
+
+.box-faq:hover{
+    background-color: #414141;
+}
+
+.box-faq svg{
+    color: #fff;
+}
+
+.repeat-btn{
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+footer{
+    color: white;
+    position: relative;
+    /* height: 30vh; */
+}
+
+footer .head{
+    color: rgb(149, 145, 145);
+    margin: 1rem 0;
+    position: relative;
+    left: 298px;
+    width: 20vw;
+}
+
+.footer-sec{
+    margin-top: 1rem;
+    width: 60vw;
+    height: 45vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 10px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    flex-direction: column; */
+}
+
+.first a{
+    margin: 0.3rem;
+    text-decoration: underline;
+    /* text-decoration: none; */
+    color: rgb(149, 145, 145);
+    cursor: pointer;
+    font-size : 0.8rem
+}
+
+/* .first button{
+    background-color: rgba(40, 37, 37, 0.384);
+    color: white;
+    width: 4rem;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    
+} */
+
+.contain{
+    margin-top: 4rem;
+}
+
+.contain p{
+    font-size: 0.8rem;
+    color: rgb(149, 145, 145);
+    margin-top: 1rem;
+}
+
+.end-btn{
+    border: 1px solid #fff;
+    border-radius: 0.2rem;
+    padding: 0.1rem 0.8rem;
+    color: white;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: rgba(10, 9, 9, 0.6);
+}
